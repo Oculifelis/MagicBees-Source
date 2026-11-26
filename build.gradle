@@ -1,0 +1,179 @@
+import groovy.json.JsonOutput
+import groovy.json.JsonSlurper
+
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+
+// NeoForge 1.21.1 build of Magic Bees. Sources and data come from the 26.1.2 project one folder up;
+// a file under src/main here replaces the shared file at the same path. See BACKPORT.md.
+
+version = mod_version
+group = mod_group_id
+
+base {
+    archivesName = "${mod_id}-${minecraft_version}"
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+def sharedRoot = file('..')
+def overridePaths = { String dir ->
+    def base = file(dir)
+    if (!base.exists()) return [] as Set
+    def out = [] as Set
+    base.eachFileRecurse(groovy.io.FileType.FILES) { f -> out << base.toPath().relativize(f.toPath()).toString().replace('\\', '/') }
+    return out
+}
+
+def syncSharedJava = tasks.register('syncSharedJava', Sync) {
+    def overrides = overridePaths('src/main/java')
+    inputs.property('overrides', overrides.sort())
+    from(new File(sharedRoot, 'src/main/java')) {
+        exclude { e -> !e.directory && overrides.contains(e.relativePath.pathString) }
+    }
+    into layout.buildDirectory.dir('shared/java')
+}
+
+// 26.x recipe ingredients are plain strings ("minecraft:stick", "#c:ingots/iron");
+// 1.21.1 wants {"item": ...} / {"tag": ...} objects and "type" instead of "neoforge:ingredient_type".
+def toIngredient
+toIngredient = { v ->
+    if (v instanceof String) return v.startsWith('#') ? [tag: v.substring(1)] : [item: v]
+    if (v instanceof List) return v.collect { toIngredient(it) }
+    if (v instanceof Map) {
+        def m = new LinkedHashMap(v)
+        if (m.containsKey('neoforge:ingredient_type')) {
+            def t = m.remove('neoforge:ingredient_type')
+            def rebuilt = new LinkedHashMap()
+            rebuilt.type = t
+            rebuilt.putAll(m)
+            return rebuilt
+        }
+        return m
+    }
+    return v
+}
+def convertRecipe = { Map r ->
+    if (r.type == 'complicated_bees:mutation') return false
+    boolean changed = false
+    ['input', 'catalyst', 'stone'].each { k ->
+        if (r.containsKey(k)) { r[k] = toIngredient(r[k]); changed = true }
+    }
+    ['ingredients', 'components'].each { k ->
+        if (r[k] instanceof List) { r[k] = r[k].collect { toIngredient(it) }; changed = true }
+    }
+    if (r.key instanceof Map) {
+        r.key = r.key.collectEntries { kk, vv -> [kk, toIngredient(vv)] }; changed = true
+    }
+    if (r.inputs instanceof List) {
+        r.inputs = r.inputs.collect { e -> (e instanceof Map && e.containsKey('ingredient')) ? (e + [ingredient: toIngredient(e.ingredient)]) : e }
+        changed = true
+    }
+    return changed
+}
+
+def syncSharedResources = tasks.register('syncSharedResources', Sync) {
+    def overrides = overridePaths('src/main/resources')
+    inputs.property('overrides', overrides.sort())
+    from(new File(sharedRoot, 'src/main/resources')) {
+        exclude { e -> !e.directory && overrides.contains(e.relativePath.pathString) }
+        // 26.x client item definitions; 1.21.1 reads models/item directly.
+        exclude 'assets/magicbees/items/**'
+        exclude 'pack.mcmeta'
+    }
+    into layout.buildDirectory.dir('shared/resources')
+    doLast {
+        def root = destinationDir
+        int n = 0
+        root.eachFileRecurse(groovy.io.FileType.FILES) { f ->
+            def rel = root.toPath().relativize(f.toPath()).toString().replace('\\', '/')
+            if (!rel.endsWith('.json') || !(rel ==~ /(.*\/)?data\/[^\/]+\/recipe\/.*/)) return
+            def parsed = new JsonSlurper().parse(f)
+            if (parsed instanceof Map && convertRecipe(parsed)) {
+                f.setText(JsonOutput.prettyPrint(JsonOutput.toJson(parsed)), 'UTF-8')
+                n++
+            }
+        }
+        logger.lifecycle("Converted ${n} recipe files to 1.21.1 ingredients")
+    }
+}
+
+sourceSets.main.java.srcDir syncSharedJava
+sourceSets.main.resources.srcDir syncSharedResources
+
+dependencies {
+    // Local jars, not committed: see libs/README.md.
+    implementation files('libs/complicated_bees-1.21.1-3.6.2.jar')
+    compileOnly files('libs/thaumaturge-1.21.1-NeoForge-1.1.0.jar')
+    runtimeOnly files('libs/thaumaturge-1.21.1-NeoForge-1.1.0.jar')
+    compileOnly files('libs/curios-neoforge-9.5.1+1.21.1.jar')
+    runtimeOnly files('libs/curios-neoforge-9.5.1+1.21.1.jar')
+    runtimeOnly files('libs/lithostitched-1.8.1-neoforge-21.1.jar')
+    compileOnly files('libs/neovitae-1.21.1-1.1.31.jar')
+    runtimeOnly files('libs/neovitae-1.21.1-1.1.31.jar')
+    runtimeOnly files('libs/geckolib-neoforge-1.21.1-4.7.7.jar')
+    runtimeOnly files('libs/modonomicon-1.21.1-neoforge-1.120.7.jar')
+    compileOnly files('libs/jei-1.21.1-neoforge-19.64.0.455.jar')
+}
+
+neoForge {
+    version = project.neo_version
+
+    runs {
+        client {
+            client()
+            gameDirectory = project.file('run/client')
+            jvmArgument '-Xmx3G'
+        }
+        server {
+            server()
+            gameDirectory = project.file('run/server')
+            programArgument '--nogui'
+            systemProperty 'magicbees.selftest', 'true'
+            jvmArgument '-Xmx2G'
+        }
+        configureEach {
+            systemProperty 'forge.logging.markers', ''
+            logLevel = org.slf4j.event.Level.INFO
+        }
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet(sourceSets.main)
+        }
+    }
+}
+
+var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
+    var replaceProperties = [
+            minecraft_version              : minecraft_version,
+            minecraft_version_range        : minecraft_version_range,
+            neo_version                    : neo_version,
+            mod_id                         : mod_id,
+            mod_name                       : mod_name,
+            mod_license                    : mod_license,
+            mod_version                    : mod_version,
+            complicated_bees_version_range : complicated_bees_version_range,
+            thaumaturge_version_range      : thaumaturge_version_range,
+    ]
+    inputs.properties replaceProperties
+    expand replaceProperties
+    from "src/main/templates"
+    into "build/generated/sources/modMetadata"
+}
+sourceSets.main.resources.srcDir generateModMetadata
+neoForge.ideSyncTask generateModMetadata
+neoForge.ideSyncTask syncSharedJava
+neoForge.ideSyncTask syncSharedResources
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+tasks.withType(Jar).configureEach {
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+}

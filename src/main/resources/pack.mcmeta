@@ -1,0 +1,21 @@
+{
+  "pack": {
+    "description": "Magic Bees resources",
+    "pack_format": 48,
+    "supported_formats": [34, 48]
+  },
+  "neoforge:overlays": {
+    "entries": [
+      {
+        "directory": "overlay.thaumaturge",
+        "formats": [34, 48],
+        "neoforge:conditions": [
+          {
+            "type": "neoforge:mod_loaded",
+            "modid": "thaumaturge"
+          }
+        ]
+      }
+    ]
+  }
+}

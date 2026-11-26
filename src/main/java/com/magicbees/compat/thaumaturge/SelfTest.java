@@ -1,0 +1,72 @@
+package com.magicbees.compat.thaumaturge;
+
+import com.magicbees.MagicBees;
+import java.util.function.Supplier;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.HolderLookup;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.neoforged.neoforge.common.NeoForge;
+import net.neoforged.neoforge.event.server.ServerStartedEvent;
+
+/**
+ * Save/load round trips of the block entities' state machines, run once the dev server has started when the JVM has
+ * {@code -Dmagicbees.selftest=true} (only the Gradle server run sets it). Each check loads a saved form into a fresh
+ * block entity, saves it, loads that into another fresh one and saves again: both saves must hold the expected values,
+ * and keys that belong to another state must be gone. Logs one {@code SELFTEST PASS} or {@code SELFTEST FAIL} line each.
+ */
+final class SelfTest {
+    private SelfTest() {
+    }
+
+    static void register() {
+        if (Boolean.getBoolean("magicbees.selftest")) {
+            NeoForge.EVENT_BUS.addListener((ServerStartedEvent e) -> run(e.getServer().registryAccess()));
+        }
+    }
+
+    private static void run(HolderLookup.Provider reg) {
+        try {
+            Supplier<BlockEntity> provider = () -> new VisAuraProviderBlockEntity(BlockPos.ZERO, ThaumaturgeCompat.VIS_AURA_PROVIDER.get().defaultBlockState());
+            check(reg, "vis_aura_provider mode by name", provider, tag("Mode", "production", "Charges", 4),
+                    tag("Mode", "production", "Charges", 4));
+            check(reg, "vis_aura_provider death mode", provider, tag("Mode", "death"), tag("Mode", "death"));
+            check(reg, "vis_aura_provider default all", provider, tag(), tag("Mode", "all", "Charges", 0));
+        } catch (Exception ex) {
+            MagicBees.LOG.error("SELFTEST FAIL crashed", ex);
+        }
+    }
+
+    /** Loads {@code in}, saves, loads that save into a fresh one and saves again; both saves must match. */
+    private static void check(HolderLookup.Provider reg, String name, Supplier<BlockEntity> make, CompoundTag in, CompoundTag expect,
+            String... absent) {
+        BlockEntity a = make.get();
+        a.loadCustomOnly(in, reg);
+        CompoundTag first = a.saveCustomOnly(reg);
+        BlockEntity b = make.get();
+        b.loadCustomOnly(first, reg);
+        CompoundTag second = b.saveCustomOnly(reg);
+        boolean ok = first.equals(second);
+        for (String k : expect.getAllKeys()) {
+            ok &= expect.get(k).equals(first.get(k));
+        }
+        for (String k : absent) {
+            ok &= !first.contains(k);
+        }
+        MagicBees.LOG.info("SELFTEST {} {}: {}", ok ? "PASS" : "FAIL", name, second);
+    }
+
+    private static CompoundTag tag(Object... kv) {
+        CompoundTag t = new CompoundTag();
+        for (int i = 0; i < kv.length; i += 2) {
+            String k = (String) kv[i];
+            switch (kv[i + 1]) {
+                case String s -> t.putString(k, s);
+                case Integer n -> t.putInt(k, n);
+                case Boolean z -> t.putBoolean(k, z);
+                default -> throw new IllegalArgumentException(k);
+            }
+        }
+        return t;
+    }
+}
