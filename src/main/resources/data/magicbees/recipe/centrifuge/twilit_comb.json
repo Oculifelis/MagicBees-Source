@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ],
+  "type": "complicated_bees:centrifuge",
+  "input": {
+    "components": {
+      "complicated_bees:comb_type": "magicbees:twilit"
+    },
+    "items": "complicated_bees:comb",
+    "neoforge:ingredient_type": "neoforge:components"
+  },
+  "outputs": [
+    {
+      "chance": 0.9,
+      "item": "magicbees:magic_wax"
+    },
+    {
+      "chance": 0.2,
+      "item": "twilightforest:torchberries"
+    },
+    {
+      "chance": 0.1,
+      "item": "twilightforest:liveroot"
+    },
+    {
+      "chance": 0.1,
+      "item": "twilightforest:raven_feather"
+    }
+  ]
+}

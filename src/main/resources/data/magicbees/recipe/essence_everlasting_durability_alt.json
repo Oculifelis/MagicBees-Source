@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "wgw",
+    "gcg",
+    "wgw"
+  ],
+  "key": {
+    "g": "#c:glass_blocks",
+    "w": "magicbees:magic_wax",
+    "c": "minecraft:iron_block"
+  },
+  "result": {
+    "id": "magicbees:essence_everlasting_durability",
+    "count": 1
+  }
+}

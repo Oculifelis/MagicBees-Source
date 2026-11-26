@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.08,
+  "first": "magicbees:twilit",
+  "result": "magicbees:steeleaf",
+  "second": "complicated_bees:lush",
+  "conditions": {
+    "complicated_bees:dimension": {
+      "dimension": "twilightforest:twilight_forest"
+    }
+  }
+}

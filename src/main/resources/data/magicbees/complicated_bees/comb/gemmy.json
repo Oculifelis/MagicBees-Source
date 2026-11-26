@@ -1,0 +1,10 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "silentgems"
+    }
+  ],
+  "inner_color": "e0a3ff",
+  "outer_color": "3d2a5c"
+}

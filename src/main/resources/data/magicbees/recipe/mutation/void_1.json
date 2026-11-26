@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.05,
+  "first": "magicbees:iron",
+  "result": "magicbees:void",
+  "second": "magicbees:flux",
+  "conditions": {
+    "complicated_bees:biome": {
+      "biome": "#thaumaturge:is_magical"
+    },
+    "complicated_bees:nighttime": {}
+  }
+}

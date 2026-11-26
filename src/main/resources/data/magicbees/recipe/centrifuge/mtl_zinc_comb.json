@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "metallurgy"
+    }
+  ],
+  "type": "complicated_bees:centrifuge",
+  "input": {
+    "components": {
+      "complicated_bees:comb_type": "magicbees:mtl_zinc"
+    },
+    "items": "complicated_bees:comb",
+    "neoforge:ingredient_type": "neoforge:components"
+  },
+  "outputs": [
+    {
+      "chance": 0.6,
+      "item": "complicated_bees:beeswax"
+    },
+    {
+      "chance": 0.6,
+      "item": "metallurgy:zinc_nugget"
+    },
+    {
+      "chance": 0.15,
+      "item": "metallurgy:zinc_dust"
+    }
+  ]
+}

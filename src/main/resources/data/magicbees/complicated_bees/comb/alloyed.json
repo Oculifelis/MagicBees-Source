@@ -1,0 +1,10 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumadditions"
+    }
+  ],
+  "inner_color": "a9c4f0",
+  "outer_color": "2e3d5c"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "complicated_bees:mutation",
+  "chance": 0.15,
+  "first": "magicbees:chicken",
+  "result": "magicbees:catty",
+  "second": "magicbees:spidery",
+  "conditions": {
+    "complicated_bees:biome": {
+      "biome": "#minecraft:is_jungle"
+    }
+  }
+}

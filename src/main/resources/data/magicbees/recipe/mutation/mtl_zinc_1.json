@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "metallurgy"
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.12,
+  "first": "magicbees:tin",
+  "result": "magicbees:mtl_zinc",
+  "second": "magicbees:earthen"
+}

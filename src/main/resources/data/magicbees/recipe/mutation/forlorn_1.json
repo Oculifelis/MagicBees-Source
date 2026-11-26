@@ -1,0 +1,7 @@
+{
+  "type": "complicated_bees:mutation",
+  "chance": 0.06,
+  "first": "magicbees:nameless",
+  "result": "magicbees:forlorn",
+  "second": "magicbees:abandoned"
+}

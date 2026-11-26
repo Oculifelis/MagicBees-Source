@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "witchery"
+    }
+  ],
+  "blocks": [
+    "witchery:belladonna",
+    "witchery:mandrake",
+    "witchery:wolfsbane",
+    "witchery:wormwood",
+    "witchery:garlic",
+    "witchery:snowbell",
+    "witchery:glintweed",
+    "witchery:blood_poppy",
+    "witchery:ember_moss"
+  ]
+}

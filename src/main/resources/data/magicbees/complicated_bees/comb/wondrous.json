@@ -1,0 +1,10 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumicwonders"
+    }
+  ],
+  "inner_color": "e8b04a",
+  "outer_color": "4d6b2e"
+}

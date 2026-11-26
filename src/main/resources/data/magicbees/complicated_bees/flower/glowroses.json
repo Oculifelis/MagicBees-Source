@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "silentgems"
+    }
+  ],
+  "blocks": [
+    "silentgems:ruby_glowrose",
+    "silentgems:sapphire_glowrose",
+    "silentgems:topaz_glowrose",
+    "silentgems:garnet_glowrose"
+  ]
+}

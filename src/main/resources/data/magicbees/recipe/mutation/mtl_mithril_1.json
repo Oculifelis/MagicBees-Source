@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "metallurgy"
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.05,
+  "first": "magicbees:mtl_carmot",
+  "result": "magicbees:mtl_mithril",
+  "second": "magicbees:silver"
+}

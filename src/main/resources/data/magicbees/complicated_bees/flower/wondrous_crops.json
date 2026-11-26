@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumicwonders"
+    }
+  ],
+  "blocks": [
+    "thaumicwonders:cinderpearl_crop",
+    "thaumicwonders:shimmerleaf_crop",
+    "thaumicwonders:vishroom_crop"
+  ]
+}

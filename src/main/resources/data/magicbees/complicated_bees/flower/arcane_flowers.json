@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "arsmagicalegacy"
+    }
+  ],
+  "blocks": [
+    "arsmagicalegacy:desert_nova",
+    "arsmagicalegacy:aum",
+    "arsmagicalegacy:wakebloom",
+    "arsmagicalegacy:tarma_root",
+    "arsmagicalegacy:cerublossom"
+  ]
+}

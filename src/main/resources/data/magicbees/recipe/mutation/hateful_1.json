@@ -1,0 +1,12 @@
+{
+  "type": "complicated_bees:mutation",
+  "chance": 0.09,
+  "first": "magicbees:infernal",
+  "result": "magicbees:hateful",
+  "second": "magicbees:eldritch",
+  "conditions": {
+    "complicated_bees:biome": {
+      "biome": "#minecraft:is_nether"
+    }
+  }
+}

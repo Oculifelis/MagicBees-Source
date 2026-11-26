@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "iceandfire"
+    }
+  ],
+  "type": "complicated_bees:centrifuge",
+  "input": {
+    "components": {
+      "complicated_bees:comb_type": "magicbees:dragonbone"
+    },
+    "items": "complicated_bees:comb",
+    "neoforge:ingredient_type": "neoforge:components"
+  },
+  "outputs": [
+    {
+      "chance": 0.7,
+      "item": "complicated_bees:beeswax"
+    },
+    {
+      "chance": 0.08,
+      "item": "iceandfire:dragonbone"
+    }
+  ]
+}

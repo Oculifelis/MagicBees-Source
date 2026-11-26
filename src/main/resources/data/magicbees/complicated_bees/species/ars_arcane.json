@@ -1,0 +1,85 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "arsmagicalegacy"
+    }
+  ],
+  "color": "76184d",
+  "default_chromosome": {
+    "complicated_bees:active_time": {
+      "data": "cathemeral",
+      "dominant": 1
+    },
+    "complicated_bees:cave_dwelling": {
+      "data": 0,
+      "dominant": 1
+    },
+    "complicated_bees:effect": {
+      "data": "INVALID",
+      "dominant": 0
+    },
+    "complicated_bees:fertility": {
+      "data": 1,
+      "dominant": 1
+    },
+    "complicated_bees:flower": {
+      "data": "magicbees:arcane_flowers",
+      "dominant": 1
+    },
+    "complicated_bees:humidity": {
+      "data": "normal",
+      "dominant": 0,
+      "tolerance": "BOTH_1"
+    },
+    "complicated_bees:lifespan": {
+      "data": "shorter",
+      "dominant": 0
+    },
+    "complicated_bees:productivity": {
+      "data": "slowest",
+      "dominant": 1
+    },
+    "complicated_bees:species": {
+      "data": "magicbees:ars_arcane",
+      "dominant": 0
+    },
+    "complicated_bees:temperature": {
+      "data": "normal",
+      "dominant": 0,
+      "tolerance": "BOTH_2"
+    },
+    "complicated_bees:territory": {
+      "data": [
+        4,
+        2
+      ],
+      "dominant": 1
+    },
+    "complicated_bees:weatherproof": {
+      "data": 0,
+      "dominant": 1
+    }
+  },
+  "dominant": false,
+  "foil": true,
+  "nest_color": "e3a55b",
+  "products": [
+    {
+      "chance": 0.19,
+      "item": "complicated_bees:comb",
+      "components": {
+        "complicated_bees:comb_type": "magicbees:potent"
+      }
+    }
+  ],
+  "specialty_products": [
+    {
+      "chance": 0.11,
+      "item": "arsmagicalegacy:affinity_essence",
+      "components": {
+        "arsmagicalegacy:affinity": "arsmagicalegacy:arcane"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "complicated_bees:mutation",
+  "chance": 0.06,
+  "first": "complicated_bees:imperial",
+  "result": "magicbees:draconic",
+  "second": "magicbees:abandoned",
+  "conditions": {
+    "complicated_bees:biome": {
+      "biome": "#minecraft:is_end"
+    }
+  }
+}

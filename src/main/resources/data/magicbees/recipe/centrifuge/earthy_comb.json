@@ -1,0 +1,20 @@
+{
+  "type": "complicated_bees:centrifuge",
+  "input": {
+    "components": {
+      "complicated_bees:comb_type": "magicbees:earthy"
+    },
+    "items": "complicated_bees:comb",
+    "neoforge:ingredient_type": "neoforge:components"
+  },
+  "outputs": [
+    {
+      "chance": 1,
+      "item": "magicbees:magic_wax"
+    },
+    {
+      "chance": 0.6,
+      "item": "minecraft:clay_ball"
+    }
+  ]
+}

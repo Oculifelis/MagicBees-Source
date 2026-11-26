@@ -1,0 +1,106 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "forsakenmagic"
+    }
+  ],
+  "color": "7a1f4f",
+  "default_chromosome": {
+    "complicated_bees:active_time": {
+      "data": "cathemeral",
+      "dominant": 1
+    },
+    "complicated_bees:cave_dwelling": {
+      "data": 1,
+      "dominant": 1
+    },
+    "complicated_bees:effect": {
+      "data": "complicated_bees:aggressive",
+      "dominant": 0
+    },
+    "complicated_bees:fertility": {
+      "data": 2,
+      "dominant": 1
+    },
+    "complicated_bees:flower": {
+      "data": "complicated_bees:nether",
+      "dominant": 1
+    },
+    "complicated_bees:humidity": {
+      "data": "dry",
+      "dominant": 0,
+      "tolerance": "NONE"
+    },
+    "complicated_bees:lifespan": {
+      "data": "short",
+      "dominant": 0
+    },
+    "complicated_bees:productivity": {
+      "data": "slow",
+      "dominant": 1
+    },
+    "complicated_bees:species": {
+      "data": "magicbees:sinful",
+      "dominant": 0
+    },
+    "complicated_bees:temperature": {
+      "data": "hellish",
+      "dominant": 0,
+      "tolerance": "DOWN_2"
+    },
+    "complicated_bees:territory": {
+      "data": [
+        4,
+        2
+      ],
+      "dominant": 1
+    },
+    "complicated_bees:weatherproof": {
+      "data": 0,
+      "dominant": 1
+    }
+  },
+  "dominant": false,
+  "foil": false,
+  "nest_color": "330b20",
+  "products": [
+    {
+      "chance": 0.15,
+      "item": "complicated_bees:comb",
+      "components": {
+        "complicated_bees:comb_type": "magicbees:molten"
+      }
+    }
+  ],
+  "specialty_products": [
+    {
+      "chance": 0.006,
+      "item": "forsakenmagic:envy_shard"
+    },
+    {
+      "chance": 0.006,
+      "item": "forsakenmagic:gluttony_shard"
+    },
+    {
+      "chance": 0.006,
+      "item": "forsakenmagic:greed_shard"
+    },
+    {
+      "chance": 0.006,
+      "item": "forsakenmagic:lust_shard"
+    },
+    {
+      "chance": 0.006,
+      "item": "forsakenmagic:pride_shard"
+    },
+    {
+      "chance": 0.006,
+      "item": "forsakenmagic:sloth_shard"
+    },
+    {
+      "chance": 0.006,
+      "item": "forsakenmagic:wrath_shard"
+    }
+  ]
+}

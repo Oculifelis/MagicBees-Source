@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumadditions"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.05,
+  "first": "magicbees:empowering",
+  "result": "magicbees:mithrillium",
+  "second": "magicbees:silver"
+}

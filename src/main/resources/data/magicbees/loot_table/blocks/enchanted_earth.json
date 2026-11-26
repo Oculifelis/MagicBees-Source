@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "magicbees:blocks/enchanted_earth",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "magicbees:enchanted_earth"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}

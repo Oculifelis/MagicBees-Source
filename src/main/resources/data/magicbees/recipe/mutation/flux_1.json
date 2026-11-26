@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.11,
+  "first": "magicbees:transmuting",
+  "result": "magicbees:flux",
+  "second": "magicbees:empowering",
+  "conditions": {
+    "magicbees:moon_phase": {
+      "from": 4,
+      "to": 4
+    }
+  }
+}

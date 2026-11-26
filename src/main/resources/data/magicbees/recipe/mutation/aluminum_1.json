@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:nuggets/aluminum"
+      }
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.1,
+  "first": "complicated_bees:industrious",
+  "result": "magicbees:aluminum",
+  "second": "complicated_bees:cultivated",
+  "conditions": {
+    "complicated_bees:block_tag_under": {
+      "tag": "c:storage_blocks/aluminum"
+    }
+  }
+}

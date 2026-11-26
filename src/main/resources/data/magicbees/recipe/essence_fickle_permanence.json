@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "wew",
+    "gcg",
+    "wew"
+  ],
+  "key": {
+    "w": "magicbees:soul_wax",
+    "c": "minecraft:magma_cream",
+    "e": "minecraft:egg",
+    "g": "minecraft:glowstone"
+  },
+  "result": {
+    "id": "magicbees:essence_fickle_permanence",
+    "count": 1
+  }
+}

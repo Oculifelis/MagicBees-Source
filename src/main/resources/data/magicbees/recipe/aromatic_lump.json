@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "HP ",
+    "JDJ",
+    " P "
+  ],
+  "key": {
+    "H": "minecraft:honey_bottle",
+    "P": "complicated_bees:pollen",
+    "J": "complicated_bees:royal_jelly",
+    "D": "magicbees:enchanting_drop"
+  },
+  "result": {
+    "id": "magicbees:aromatic_lump",
+    "count": 2
+  }
+}

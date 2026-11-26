@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "sPs",
+    "PfP",
+    "sPs"
+  ],
+  "key": {
+    "s": "minecraft:sand",
+    "P": "magicbees:phased_pollen",
+    "f": "magicbees:magic_frame"
+  },
+  "result": {
+    "id": "magicbees:temporal_frame",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "magicbees:essence_everlasting_durability",
+    "magicbees:magic_frame"
+  ],
+  "result": {
+    "id": "magicbees:resilient_frame",
+    "count": 1
+  }
+}

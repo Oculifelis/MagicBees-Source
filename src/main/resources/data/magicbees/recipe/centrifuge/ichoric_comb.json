@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturgictinkerer"
+    }
+  ],
+  "type": "complicated_bees:centrifuge",
+  "input": {
+    "components": {
+      "complicated_bees:comb_type": "magicbees:ichoric"
+    },
+    "items": "complicated_bees:comb",
+    "neoforge:ingredient_type": "neoforge:components"
+  },
+  "outputs": [
+    {
+      "chance": 0.9,
+      "item": "magicbees:magic_wax"
+    },
+    {
+      "chance": 0.04,
+      "item": "thaumaturgictinkerer:shard_nether"
+    },
+    {
+      "chance": 0.03,
+      "item": "thaumaturgictinkerer:shard_end"
+    }
+  ]
+}

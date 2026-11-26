@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumicwonders"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.08,
+  "first": "magicbees:essentia",
+  "result": "magicbees:wondrous",
+  "second": "magicbees:fire"
+}

@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "metallurgy"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "witchery"
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.03,
+  "first": "magicbees:mtl_vulcanite",
+  "result": "magicbees:mtl_sanguinite",
+  "second": "magicbees:vampiric",
+  "conditions": {
+    "complicated_bees:dimension": {
+      "dimension": "minecraft:the_nether"
+    }
+  }
+}

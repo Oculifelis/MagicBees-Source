@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "crimsonrevelations"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.06,
+  "first": "magicbees:flux",
+  "result": "magicbees:crimson",
+  "second": "magicbees:hateful"
+}

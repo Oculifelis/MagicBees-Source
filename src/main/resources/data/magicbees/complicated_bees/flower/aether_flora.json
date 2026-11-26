@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aether_ii"
+    }
+  ],
+  "blocks": [
+    "aether_ii:hesperose",
+    "aether_ii:lilichime",
+    "aether_ii:tarabloom",
+    "aether_ii:brettl_flower",
+    "aether_ii:blooming_arilum",
+    "aether_ii:aechor_cutting"
+  ]
+}

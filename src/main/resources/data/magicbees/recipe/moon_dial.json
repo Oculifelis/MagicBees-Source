@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DqD",
+    "qrq",
+    "DqD"
+  ],
+  "key": {
+    "D": "minecraft:green_dye",
+    "q": "minecraft:quartz",
+    "r": "minecraft:redstone"
+  },
+  "result": {
+    "id": "magicbees:moon_dial",
+    "count": 1
+  }
+}

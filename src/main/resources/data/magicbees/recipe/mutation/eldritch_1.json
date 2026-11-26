@@ -1,0 +1,7 @@
+{
+  "type": "complicated_bees:mutation",
+  "chance": 0.12,
+  "first": "magicbees:mystical",
+  "result": "magicbees:eldritch",
+  "second": "complicated_bees:cultivated"
+}

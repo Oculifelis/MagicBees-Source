@@ -1,0 +1,10 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "auroral"
+    }
+  ],
+  "inner_color": "b8f2e0",
+  "outer_color": "2a6b6e"
+}

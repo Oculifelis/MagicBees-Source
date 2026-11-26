@@ -1,0 +1,10 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "metallurgy"
+    }
+  ],
+  "inner_color": "be3e52",
+  "outer_color": "68222d"
+}

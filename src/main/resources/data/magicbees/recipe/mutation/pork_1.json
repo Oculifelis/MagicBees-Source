@@ -1,0 +1,12 @@
+{
+  "type": "complicated_bees:mutation",
+  "chance": 0.12,
+  "first": "complicated_bees:common",
+  "result": "magicbees:pork",
+  "second": "magicbees:skulking",
+  "conditions": {
+    "complicated_bees:biome": {
+      "biome": "#minecraft:is_mountain"
+    }
+  }
+}

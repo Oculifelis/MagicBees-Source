@@ -1,0 +1,94 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "forsakenmagic"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "color": "6b4a7a",
+  "default_chromosome": {
+    "complicated_bees:active_time": {
+      "data": "diurnal",
+      "dominant": 1
+    },
+    "complicated_bees:cave_dwelling": {
+      "data": 0,
+      "dominant": 1
+    },
+    "complicated_bees:effect": {
+      "data": "magicbees:node_tainting",
+      "dominant": 0
+    },
+    "complicated_bees:fertility": {
+      "data": 1,
+      "dominant": 1
+    },
+    "complicated_bees:flower": {
+      "data": "magicbees:aura_node",
+      "dominant": 1
+    },
+    "complicated_bees:humidity": {
+      "data": "normal",
+      "dominant": 0,
+      "tolerance": "NONE"
+    },
+    "complicated_bees:lifespan": {
+      "data": "shorter",
+      "dominant": 0
+    },
+    "complicated_bees:productivity": {
+      "data": "slowest",
+      "dominant": 1
+    },
+    "complicated_bees:species": {
+      "data": "magicbees:blighted",
+      "dominant": 0
+    },
+    "complicated_bees:temperature": {
+      "data": "normal",
+      "dominant": 0,
+      "tolerance": "NONE"
+    },
+    "complicated_bees:territory": {
+      "data": [
+        4,
+        2
+      ],
+      "dominant": 1
+    },
+    "complicated_bees:weatherproof": {
+      "data": 0,
+      "dominant": 1
+    }
+  },
+  "dominant": false,
+  "foil": false,
+  "nest_color": "2a1d30",
+  "products": [
+    {
+      "chance": 0.2,
+      "item": "complicated_bees:comb",
+      "components": {
+        "complicated_bees:comb_type": "magicbees:blighted"
+      }
+    },
+    {
+      "chance": 0.1,
+      "item": "complicated_bees:propolis"
+    }
+  ],
+  "specialty_products": [
+    {
+      "chance": 0.01,
+      "item": "forsakenmagic:taint_shard"
+    },
+    {
+      "chance": 0.03,
+      "item": "forsakenmagic:taint_fruit"
+    }
+  ]
+}

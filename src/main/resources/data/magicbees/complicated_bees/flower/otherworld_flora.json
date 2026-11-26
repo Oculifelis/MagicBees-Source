@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "occultism"
+    }
+  ],
+  "blocks": [
+    "occultism:otherflower",
+    "occultism:otherflower_natural",
+    "occultism:datura"
+  ]
+}

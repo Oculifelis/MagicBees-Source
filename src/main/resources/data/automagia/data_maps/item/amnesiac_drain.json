@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "automagia"
+    }
+  ],
+  "replace": false,
+  "values": {
+    "magicbees:intellect_drop": {
+      "points": 3
+    },
+    "magicbees:enchanting_drop": {
+      "points": 8
+    }
+  }
+}

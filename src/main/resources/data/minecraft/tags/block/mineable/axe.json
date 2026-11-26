@@ -1,0 +1,8 @@
+{
+  "values": [
+    {
+      "id": "magicbees:vis_aura_provider",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:nuggets/ardite"
+      }
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.09,
+  "first": "complicated_bees:industrious",
+  "result": "magicbees:ardite",
+  "second": "magicbees:infernal",
+  "conditions": {
+    "complicated_bees:block_tag_under": {
+      "tag": "c:storage_blocks/ardite"
+    }
+  }
+}

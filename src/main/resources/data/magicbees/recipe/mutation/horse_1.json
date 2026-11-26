@@ -1,0 +1,12 @@
+{
+  "type": "complicated_bees:mutation",
+  "chance": 0.12,
+  "first": "magicbees:beef",
+  "result": "magicbees:horse",
+  "second": "magicbees:sheepish",
+  "conditions": {
+    "complicated_bees:biome": {
+      "biome": "#c:is_plains"
+    }
+  }
+}

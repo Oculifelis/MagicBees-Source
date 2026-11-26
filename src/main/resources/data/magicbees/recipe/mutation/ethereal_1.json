@@ -1,0 +1,7 @@
+{
+  "type": "complicated_bees:mutation",
+  "chance": 0.07,
+  "first": "magicbees:arcane",
+  "result": "magicbees:ethereal",
+  "second": "magicbees:supernatural"
+}

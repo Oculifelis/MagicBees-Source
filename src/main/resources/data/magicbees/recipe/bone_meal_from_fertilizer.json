@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    " F ",
+    " S "
+  ],
+  "key": {
+    "S": "#c:sands",
+    "F": "magicbees:extended_fertilizer"
+  },
+  "result": {
+    "id": "minecraft:bone_meal",
+    "count": 6
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "complicated_bees:mutation",
+  "chance": 0.07,
+  "first": "magicbees:timely",
+  "result": "magicbees:doctoral",
+  "second": "magicbees:lordly"
+}

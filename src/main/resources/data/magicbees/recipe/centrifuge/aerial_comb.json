@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aether_ii"
+    }
+  ],
+  "type": "complicated_bees:centrifuge",
+  "input": {
+    "components": {
+      "complicated_bees:comb_type": "magicbees:aerial"
+    },
+    "items": "complicated_bees:comb",
+    "neoforge:ingredient_type": "neoforge:components"
+  },
+  "outputs": [
+    {
+      "chance": 0.9,
+      "item": "magicbees:magic_wax"
+    },
+    {
+      "chance": 0.2,
+      "item": "aether_ii:swet_gel"
+    },
+    {
+      "chance": 0.1,
+      "item": "aether_ii:ambrosium_shard"
+    }
+  ]
+}

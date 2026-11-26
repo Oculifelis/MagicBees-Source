@@ -1,0 +1,39 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aromara"
+    }
+  ],
+  "type": "thaumaturge:arcane_workbench_shapeless",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 5
+    }
+  ],
+  "ingredients": [
+    "magicbees:aromatic_lump",
+    "magicbees:aromatic_lump",
+    "magicbees:aromatic_lump",
+    "magicbees:aromatic_lump",
+    "minecraft:string"
+  ],
+  "research": {
+    "entry": "aromara:scent_burning",
+    "stage": 0
+  },
+  "result": {
+    "id": "aromara:redolent_bundle",
+    "components": {
+      "aromara:scent": {
+        "scent": "magicbees:aromatic_lump"
+      }
+    }
+  },
+  "vis": 25
+}

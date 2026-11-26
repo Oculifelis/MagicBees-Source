@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "witchery"
+    }
+  ],
+  "type": "complicated_bees:centrifuge",
+  "input": {
+    "components": {
+      "complicated_bees:comb_type": "magicbees:herbal"
+    },
+    "items": "complicated_bees:comb",
+    "neoforge:ingredient_type": "neoforge:components"
+  },
+  "outputs": [
+    {
+      "chance": 0.8,
+      "item": "complicated_bees:beeswax"
+    },
+    {
+      "chance": 0.1,
+      "item": "witchery:belladonna_flower"
+    },
+    {
+      "chance": 0.08,
+      "item": "witchery:wolfsbane"
+    },
+    {
+      "chance": 0.08,
+      "item": "witchery:wormwood"
+    },
+    {
+      "chance": 0.1,
+      "item": "witchery:garlic"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "taintedmagic"
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.06,
+  "first": "magicbees:spiteful",
+  "result": "magicbees:bloodlust",
+  "second": "magicbees:hateful"
+}

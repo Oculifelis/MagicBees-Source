@@ -1,0 +1,82 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "occultism"
+    }
+  ],
+  "color": "8a6fc4",
+  "default_chromosome": {
+    "complicated_bees:active_time": {
+      "data": "cathemeral",
+      "dominant": 1
+    },
+    "complicated_bees:cave_dwelling": {
+      "data": 0,
+      "dominant": 1
+    },
+    "complicated_bees:effect": {
+      "data": "INVALID",
+      "dominant": 0
+    },
+    "complicated_bees:fertility": {
+      "data": 2,
+      "dominant": 1
+    },
+    "complicated_bees:flower": {
+      "data": "magicbees:otherworld_flora",
+      "dominant": 1
+    },
+    "complicated_bees:humidity": {
+      "data": "normal",
+      "dominant": 0,
+      "tolerance": "BOTH_1"
+    },
+    "complicated_bees:lifespan": {
+      "data": "short",
+      "dominant": 0
+    },
+    "complicated_bees:productivity": {
+      "data": "slowest",
+      "dominant": 1
+    },
+    "complicated_bees:species": {
+      "data": "magicbees:foliot",
+      "dominant": 1
+    },
+    "complicated_bees:temperature": {
+      "data": "warm",
+      "dominant": 0,
+      "tolerance": "NONE"
+    },
+    "complicated_bees:territory": {
+      "data": [
+        4,
+        2
+      ],
+      "dominant": 1
+    },
+    "complicated_bees:weatherproof": {
+      "data": 1,
+      "dominant": 1
+    }
+  },
+  "dominant": true,
+  "foil": false,
+  "nest_color": "4b3a6e",
+  "products": [
+    {
+      "chance": 0.2,
+      "item": "complicated_bees:comb",
+      "components": {
+        "complicated_bees:comb_type": "magicbees:otherworld"
+      }
+    }
+  ],
+  "specialty_products": [
+    {
+      "chance": 0.06,
+      "item": "occultism:otherworld_ashes"
+    }
+  ]
+}

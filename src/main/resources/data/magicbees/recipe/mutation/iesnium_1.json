@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "occultism"
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.08,
+  "first": "magicbees:djinni",
+  "result": "magicbees:iesnium",
+  "second": "magicbees:iron",
+  "conditions": {
+    "complicated_bees:block_under": {
+      "block": "occultism:iesnium_block"
+    }
+  }
+}

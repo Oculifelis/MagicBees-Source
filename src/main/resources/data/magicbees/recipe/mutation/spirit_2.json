@@ -1,0 +1,7 @@
+{
+  "type": "complicated_bees:mutation",
+  "chance": 0.08,
+  "first": "magicbees:attuned",
+  "result": "magicbees:spirit",
+  "second": "magicbees:aware"
+}

@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rootsclassic"
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.12,
+  "first": "magicbees:mystical",
+  "result": "magicbees:druidic",
+  "second": "complicated_bees:forest"
+}

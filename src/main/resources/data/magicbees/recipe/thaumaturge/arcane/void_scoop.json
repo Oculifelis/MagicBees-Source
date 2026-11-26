@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "research": {
+    "entry": "magicbees:scoop_void",
+    "stage": 0
+  },
+  "result": {
+    "id": "magicbees:void_scoop",
+    "count": 1
+  },
+  "vis": 15,
+  "pattern": [
+    "sWs",
+    "sTs",
+    " T "
+  ],
+  "key": {
+    "s": "minecraft:stick",
+    "W": "#minecraft:wool",
+    "T": "thaumaturge:ingot_void"
+  }
+}

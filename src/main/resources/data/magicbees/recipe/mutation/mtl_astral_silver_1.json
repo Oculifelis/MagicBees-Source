@@ -1,0 +1,20 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "metallurgy"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aerialhell"
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.07,
+  "first": "magicbees:silver",
+  "result": "magicbees:mtl_astral_silver",
+  "second": "magicbees:stellar",
+  "conditions": {
+    "complicated_bees:nighttime": {}
+  }
+}

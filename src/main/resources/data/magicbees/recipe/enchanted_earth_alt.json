@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " d ",
+    "ded",
+    " d "
+  ],
+  "key": {
+    "d": "#minecraft:dirt",
+    "e": "magicbees:essence_false_life"
+  },
+  "result": {
+    "id": "magicbees:enchanted_earth",
+    "count": 1
+  }
+}

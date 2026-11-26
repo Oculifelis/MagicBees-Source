@@ -1,0 +1,7 @@
+{
+  "type": "complicated_bees:mutation",
+  "chance": 0.07,
+  "first": "magicbees:aware",
+  "result": "magicbees:soul",
+  "second": "magicbees:spirit"
+}

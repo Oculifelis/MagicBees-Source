@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "arsmagicalegacy"
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.08,
+  "first": "magicbees:earthen",
+  "result": "magicbees:ars_plant",
+  "second": "magicbees:ars_earth"
+}

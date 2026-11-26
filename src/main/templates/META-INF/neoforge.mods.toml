@@ -1,0 +1,56 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+logoFile="magicbees_logo.png"
+logoBlur=false
+displayName="${mod_name}"
+authors="MysteriousAges (original Magic Bees), GTNH team (1.7.10 maintenance), Oculifelis (port for Complicated Bees)"
+credits="Original mod and textures by MysteriousAges and contributors (WTFPL). GTNewHorizons/MagicBees maintainers. Complicated Bees by accbdd (some product sprites recoloured from it, MIT). Some item sprites recoloured from Malcolm Riley's unused-textures (github.com/malcolmriley/unused-textures, CC BY 4.0). Thaumaturge by Leclowndu93150 and contributors."
+description='''
+A port of Magic Bees (Forestry addon, GTNH 2.10.13) to Complicated Bees on NeoForge 26.1.2.
+Phase 1: the core magic species, their combs, waxes, drops, frames and nests. Ars Magica Legacy bees load when that mod is present.
+'''
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[26.1.2.71,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="complicated_bees"
+    type="required"
+    versionRange="${complicated_bees_version_range}"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="thaumaturge"
+    type="optional"
+    versionRange="${thaumaturge_version_range}"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="arsmagicalegacy"
+    type="optional"
+    versionRange="[1.7.1,)"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="jei"
+    type="optional"
+    versionRange="[29,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[mixins]]
+config="${mod_id}.mixins.json"

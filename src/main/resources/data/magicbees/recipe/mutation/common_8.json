@@ -1,0 +1,7 @@
+{
+  "type": "complicated_bees:mutation",
+  "chance": 0.15,
+  "first": "magicbees:sorcerous",
+  "result": "complicated_bees:common",
+  "second": "complicated_bees:desert"
+}

@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturgicconcilium"
+    }
+  ],
+  "replace": false,
+  "values": {
+    "magicbees:air_dust": {
+      "aspect": "thaumaturge:aer"
+    },
+    "magicbees:earth_dust": {
+      "aspect": "thaumaturge:terra"
+    },
+    "magicbees:fire_dust": {
+      "aspect": "thaumaturge:ignis"
+    },
+    "magicbees:water_dust": {
+      "aspect": "thaumaturge:aqua"
+    },
+    "magicbees:order_dust": {
+      "aspect": "thaumaturge:ordo"
+    },
+    "magicbees:chaos_dust": {
+      "aspect": "thaumaturge:perditio"
+    }
+  }
+}

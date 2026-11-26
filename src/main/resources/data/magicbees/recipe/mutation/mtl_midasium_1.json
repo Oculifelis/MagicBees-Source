@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "metallurgy"
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.06,
+  "first": "magicbees:mtl_lemurite",
+  "result": "magicbees:mtl_midasium",
+  "second": "magicbees:gold",
+  "conditions": {
+    "complicated_bees:dimension": {
+      "dimension": "minecraft:the_nether"
+    }
+  }
+}

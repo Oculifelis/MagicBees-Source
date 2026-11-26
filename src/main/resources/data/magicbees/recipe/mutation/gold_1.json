@@ -1,0 +1,12 @@
+{
+  "type": "complicated_bees:mutation",
+  "chance": 0.08,
+  "first": "complicated_bees:imperial",
+  "result": "magicbees:gold",
+  "second": "magicbees:lead",
+  "conditions": {
+    "complicated_bees:block_under": {
+      "block": "minecraft:gold_block"
+    }
+  }
+}

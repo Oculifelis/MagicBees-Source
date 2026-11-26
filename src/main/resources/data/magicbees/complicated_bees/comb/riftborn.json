@@ -1,0 +1,10 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturgicconcilium"
+    }
+  ],
+  "inner_color": "6f7bff",
+  "outer_color": "1f2240"
+}

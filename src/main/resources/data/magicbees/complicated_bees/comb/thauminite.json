@@ -1,0 +1,10 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturgicbases"
+    }
+  ],
+  "inner_color": "7ec8d8",
+  "outer_color": "2f4a63"
+}

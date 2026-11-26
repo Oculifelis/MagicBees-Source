@@ -1,0 +1,69 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "neovitae"
+    }
+  ],
+  "category": "magicbees:apimancy",
+  "name": "research.magicbees.frenzied_frame.title",
+  "parents": [
+    "magicbees:frame_magic"
+  ],
+  "column": -5,
+  "row": 2,
+  "icons": [
+    "magicbees:frenzied_frame"
+  ],
+  "stages": [
+    {
+      "text": "research.magicbees.frenzied_frame.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.magicbees.frenzied_frame.stage_1",
+      "recipes": [
+        "magicbees:thaumaturge/arcane/frenzied_frame",
+        "magicbees:frenzied_frame"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:humanus",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 1
+    }
+  ],
+  "complexity": 2
+}

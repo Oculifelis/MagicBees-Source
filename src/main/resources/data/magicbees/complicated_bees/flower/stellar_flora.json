@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aerialhell"
+    }
+  ],
+  "blocks": [
+    "aerialhell:bellflower",
+    "aerialhell:black_rose",
+    "aerialhell:blue_flower",
+    "aerialhell:full_moon_flower",
+    "aerialhell:stellar_clovers",
+    "aerialhell:blossoming_vines"
+  ]
+}

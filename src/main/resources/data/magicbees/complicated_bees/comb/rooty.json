@@ -1,0 +1,10 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rootsclassic"
+    }
+  ],
+  "inner_color": "8fbf4a",
+  "outer_color": "5e4a2c"
+}

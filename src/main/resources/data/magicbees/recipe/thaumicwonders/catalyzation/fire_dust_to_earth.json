@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumicwonders"
+    }
+  ],
+  "type": "thaumicwonders:catalyzation",
+  "stone": "thaumicwonders:transmuter_stone",
+  "input": "magicbees:fire_dust",
+  "result": {
+    "id": "magicbees:earth_dust"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:nuggets/electrum"
+      }
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.1,
+  "first": "magicbees:gold",
+  "result": "magicbees:electrum",
+  "second": "magicbees:silver",
+  "conditions": {
+    "complicated_bees:block_tag_under": {
+      "tag": "c:storage_blocks/electrum"
+    }
+  }
+}

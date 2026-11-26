@@ -1,0 +1,12 @@
+{
+  "type": "complicated_bees:mutation",
+  "chance": 0.06,
+  "first": "complicated_bees:devilish",
+  "result": "magicbees:withering",
+  "second": "magicbees:spiteful",
+  "conditions": {
+    "complicated_bees:biome": {
+      "biome": "#minecraft:is_nether"
+    }
+  }
+}

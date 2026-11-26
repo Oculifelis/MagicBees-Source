@@ -1,0 +1,7 @@
+{
+  "type": "complicated_bees:mutation",
+  "chance": 0.09,
+  "first": "magicbees:unusual",
+  "result": "magicbees:crumbling",
+  "second": "magicbees:mutable"
+}

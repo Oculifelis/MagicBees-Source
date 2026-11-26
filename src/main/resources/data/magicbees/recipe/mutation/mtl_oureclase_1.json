@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "metallurgy"
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.07,
+  "first": "magicbees:mtl_prometheum",
+  "result": "magicbees:mtl_oureclase",
+  "second": "magicbees:mtl_infuscolium"
+}

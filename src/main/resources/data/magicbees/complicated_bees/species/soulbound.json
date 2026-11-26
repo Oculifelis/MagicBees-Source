@@ -1,0 +1,82 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "forbidden_arcanus"
+    }
+  ],
+  "color": "6fd6c8",
+  "default_chromosome": {
+    "complicated_bees:active_time": {
+      "data": "diurnal",
+      "dominant": 1
+    },
+    "complicated_bees:cave_dwelling": {
+      "data": 0,
+      "dominant": 1
+    },
+    "complicated_bees:effect": {
+      "data": "INVALID",
+      "dominant": 0
+    },
+    "complicated_bees:fertility": {
+      "data": 2,
+      "dominant": 1
+    },
+    "complicated_bees:flower": {
+      "data": "magicbees:yellow_orchid",
+      "dominant": 1
+    },
+    "complicated_bees:humidity": {
+      "data": "normal",
+      "dominant": 0,
+      "tolerance": "BOTH_1"
+    },
+    "complicated_bees:lifespan": {
+      "data": "average",
+      "dominant": 0
+    },
+    "complicated_bees:productivity": {
+      "data": "slowest",
+      "dominant": 1
+    },
+    "complicated_bees:species": {
+      "data": "magicbees:soulbound",
+      "dominant": 0
+    },
+    "complicated_bees:temperature": {
+      "data": "hellish",
+      "dominant": 0,
+      "tolerance": "DOWN_2"
+    },
+    "complicated_bees:territory": {
+      "data": [
+        4,
+        2
+      ],
+      "dominant": 1
+    },
+    "complicated_bees:weatherproof": {
+      "data": 1,
+      "dominant": 1
+    }
+  },
+  "dominant": false,
+  "foil": false,
+  "nest_color": "2a5550",
+  "products": [
+    {
+      "chance": 0.12,
+      "item": "complicated_bees:comb",
+      "components": {
+        "complicated_bees:comb_type": "magicbees:arcane"
+      }
+    }
+  ],
+  "specialty_products": [
+    {
+      "chance": 0.02,
+      "item": "forbidden_arcanus:soul"
+    }
+  ]
+}

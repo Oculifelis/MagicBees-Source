@@ -1,0 +1,102 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "silentgems"
+    }
+  ],
+  "color": "d64f8a",
+  "default_chromosome": {
+    "complicated_bees:active_time": {
+      "data": "cathemeral",
+      "dominant": 1
+    },
+    "complicated_bees:cave_dwelling": {
+      "data": 1,
+      "dominant": 1
+    },
+    "complicated_bees:effect": {
+      "data": "INVALID",
+      "dominant": 0
+    },
+    "complicated_bees:fertility": {
+      "data": 1,
+      "dominant": 1
+    },
+    "complicated_bees:flower": {
+      "data": "magicbees:glowroses",
+      "dominant": 1
+    },
+    "complicated_bees:humidity": {
+      "data": "normal",
+      "dominant": 0,
+      "tolerance": "NONE"
+    },
+    "complicated_bees:lifespan": {
+      "data": "shorter",
+      "dominant": 0
+    },
+    "complicated_bees:productivity": {
+      "data": "slowest",
+      "dominant": 1
+    },
+    "complicated_bees:species": {
+      "data": "magicbees:gemcutter",
+      "dominant": 0
+    },
+    "complicated_bees:temperature": {
+      "data": "normal",
+      "dominant": 0,
+      "tolerance": "NONE"
+    },
+    "complicated_bees:territory": {
+      "data": [
+        4,
+        2
+      ],
+      "dominant": 1
+    },
+    "complicated_bees:weatherproof": {
+      "data": 0,
+      "dominant": 1
+    }
+  },
+  "dominant": false,
+  "foil": false,
+  "nest_color": "5a1f3a",
+  "products": [
+    {
+      "chance": 0.15,
+      "item": "complicated_bees:comb",
+      "components": {
+        "complicated_bees:comb_type": "magicbees:gemmy"
+      }
+    }
+  ],
+  "specialty_products": [
+    {
+      "chance": 0.01,
+      "item": "silentgems:ruby"
+    },
+    {
+      "chance": 0.01,
+      "item": "silentgems:sapphire"
+    },
+    {
+      "chance": 0.01,
+      "item": "silentgems:topaz"
+    },
+    {
+      "chance": 0.01,
+      "item": "silentgems:garnet"
+    },
+    {
+      "chance": 0.01,
+      "item": "silentgems:peridot"
+    },
+    {
+      "chance": 0.01,
+      "item": "silentgems:opal"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "primalartifice"
+    }
+  ],
+  "inner_color": "9fd6a0",
+  "outer_color": "3d5a3a"
+}

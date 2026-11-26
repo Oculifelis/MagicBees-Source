@@ -1,0 +1,86 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "witchery"
+    }
+  ],
+  "color": "6a0f2a",
+  "default_chromosome": {
+    "complicated_bees:active_time": {
+      "data": "cathemeral",
+      "dominant": 1
+    },
+    "complicated_bees:cave_dwelling": {
+      "data": 0,
+      "dominant": 1
+    },
+    "complicated_bees:effect": {
+      "data": "magicbees:spawn_bats",
+      "dominant": 0
+    },
+    "complicated_bees:fertility": {
+      "data": 2,
+      "dominant": 1
+    },
+    "complicated_bees:flower": {
+      "data": "magicbees:witchery_herbs",
+      "dominant": 1
+    },
+    "complicated_bees:humidity": {
+      "data": "normal",
+      "dominant": 0,
+      "tolerance": "NONE"
+    },
+    "complicated_bees:lifespan": {
+      "data": "shorter",
+      "dominant": 0
+    },
+    "complicated_bees:productivity": {
+      "data": "fast",
+      "dominant": 1
+    },
+    "complicated_bees:species": {
+      "data": "magicbees:vampiric",
+      "dominant": 0
+    },
+    "complicated_bees:temperature": {
+      "data": "normal",
+      "dominant": 0,
+      "tolerance": "NONE"
+    },
+    "complicated_bees:territory": {
+      "data": [
+        5,
+        3
+      ],
+      "dominant": 1
+    },
+    "complicated_bees:weatherproof": {
+      "data": 0,
+      "dominant": 1
+    }
+  },
+  "dominant": false,
+  "foil": false,
+  "nest_color": "2a0610",
+  "products": [
+    {
+      "chance": 0.15,
+      "item": "complicated_bees:comb",
+      "components": {
+        "complicated_bees:comb_type": "magicbees:herbal"
+      }
+    },
+    {
+      "chance": 0.08,
+      "item": "witchery:wool_of_bat"
+    }
+  ],
+  "specialty_products": [
+    {
+      "chance": 0.04,
+      "item": "witchery:bottle_of_blood"
+    }
+  ]
+}

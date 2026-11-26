@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "arsmagicalegacy"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "components": {
+        "arsmagicalegacy:affinity": "arsmagicalegacy:earth"
+      },
+      "items": "arsmagicalegacy:affinity_essence",
+      "neoforge:ingredient_type": "neoforge:components"
+    },
+    "minecraft:bone_meal",
+    "minecraft:bone_meal"
+  ],
+  "result": {
+    "id": "magicbees:extended_fertilizer",
+    "count": 4
+  }
+}

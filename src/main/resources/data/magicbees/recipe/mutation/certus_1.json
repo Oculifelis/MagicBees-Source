@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.13,
+  "first": "magicbees:silicon",
+  "result": "magicbees:certus",
+  "second": "magicbees:skystone"
+}

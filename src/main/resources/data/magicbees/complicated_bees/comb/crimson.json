@@ -1,0 +1,10 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "crimsonrevelations"
+    }
+  ],
+  "inner_color": "c2303b",
+  "outer_color": "4a0e14"
+}

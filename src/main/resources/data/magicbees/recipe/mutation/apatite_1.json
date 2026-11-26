@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:gems/apatite"
+      }
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.12,
+  "first": "complicated_bees:campestral",
+  "result": "magicbees:apatite",
+  "second": "magicbees:copper",
+  "conditions": {
+    "complicated_bees:block_tag_under": {
+      "tag": "c:storage_blocks/apatite"
+    }
+  }
+}

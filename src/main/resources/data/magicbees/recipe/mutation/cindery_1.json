@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rootsclassic"
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.06,
+  "first": "magicbees:druidic",
+  "result": "magicbees:cindery",
+  "second": "magicbees:infernal",
+  "conditions": {
+    "complicated_bees:dimension": {
+      "dimension": "minecraft:the_nether"
+    }
+  }
+}

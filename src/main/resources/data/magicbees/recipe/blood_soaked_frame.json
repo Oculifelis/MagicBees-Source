@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "neovitae"
+    }
+  ],
+  "type": "neovitae:ara_vitae_recipe",
+  "bloodNeeded": 5000,
+  "craftSpeed": 20,
+  "drainSpeed": 20,
+  "input": "magicbees:magic_frame",
+  "minTier": 0,
+  "output": {
+    "id": "magicbees:blood_soaked_frame"
+  }
+}

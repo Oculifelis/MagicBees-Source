@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "forbidden_arcanus"
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.07,
+  "first": "magicbees:arcanus",
+  "result": "magicbees:deorum",
+  "second": "magicbees:gold"
+}

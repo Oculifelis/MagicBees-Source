@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "forbidden_arcanus"
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.06,
+  "first": "magicbees:arcanus",
+  "result": "magicbees:corrupt",
+  "second": "magicbees:hateful",
+  "conditions": {
+    "complicated_bees:nighttime": {}
+  }
+}

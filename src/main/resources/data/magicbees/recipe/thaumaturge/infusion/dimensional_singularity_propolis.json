@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 15
+    }
+  ],
+  "catalyst": "magicbees:unstable_propolis",
+  "components": [
+    "minecraft:ender_pearl",
+    "minecraft:ender_pearl",
+    "minecraft:diamond"
+  ],
+  "instability": 6,
+  "research": {
+    "entry": "magicbees:dimensional_singularity"
+  },
+  "result": {
+    "id": "magicbees:dimensional_singularity",
+    "count": 3
+  }
+}

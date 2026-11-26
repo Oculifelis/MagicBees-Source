@@ -1,0 +1,12 @@
+{
+  "type": "complicated_bees:mutation",
+  "chance": 0.07,
+  "first": "magicbees:ghastly",
+  "result": "magicbees:smouldering",
+  "second": "magicbees:hateful",
+  "conditions": {
+    "complicated_bees:biome": {
+      "biome": "#minecraft:is_nether"
+    }
+  }
+}

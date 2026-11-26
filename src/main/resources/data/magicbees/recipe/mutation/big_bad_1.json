@@ -1,0 +1,13 @@
+{
+  "type": "complicated_bees:mutation",
+  "chance": 0.07,
+  "first": "magicbees:skulking",
+  "result": "magicbees:big_bad",
+  "second": "magicbees:mysterious",
+  "conditions": {
+    "magicbees:moon_phase": {
+      "from": 0,
+      "to": 0
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "warptheory"
+    }
+  ],
+  "inner_color": "8d4fb8",
+  "outer_color": "2a1838"
+}

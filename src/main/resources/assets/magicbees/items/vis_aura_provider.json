@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "magicbees:block/vis_aura_provider"
+  }
+}

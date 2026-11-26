@@ -1,0 +1,10 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumicaugmentation"
+    }
+  ],
+  "inner_color": "b45cd6",
+  "outer_color": "3a1d4d"
+}

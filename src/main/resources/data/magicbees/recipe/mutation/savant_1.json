@@ -1,0 +1,7 @@
+{
+  "type": "complicated_bees:mutation",
+  "chance": 0.06,
+  "first": "magicbees:pupil",
+  "result": "magicbees:savant",
+  "second": "magicbees:scholarly"
+}

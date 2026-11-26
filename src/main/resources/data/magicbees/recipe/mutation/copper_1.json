@@ -1,0 +1,12 @@
+{
+  "type": "complicated_bees:mutation",
+  "chance": 0.12,
+  "first": "complicated_bees:industrious",
+  "result": "magicbees:copper",
+  "second": "complicated_bees:plains",
+  "conditions": {
+    "complicated_bees:block_tag_under": {
+      "tag": "c:storage_blocks/copper"
+    }
+  }
+}

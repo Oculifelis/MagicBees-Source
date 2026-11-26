@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "magicbees:block/enchanted_earth_top",
+    "side": "magicbees:block/enchanted_earth",
+    "bottom": "magicbees:block/enchanted_earth"
+  }
+}

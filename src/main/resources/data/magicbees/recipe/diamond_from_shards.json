@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": "magicbees:diamond_shard"
+  },
+  "result": {
+    "id": "minecraft:diamond",
+    "count": 1
+  }
+}

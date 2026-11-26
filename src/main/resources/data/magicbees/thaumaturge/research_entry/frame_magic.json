@@ -1,0 +1,53 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "category": "magicbees:apimancy",
+  "name": "research.magicbees.frame_magic.title",
+  "parents": [
+    "magicbees:root"
+  ],
+  "column": -2,
+  "row": 1,
+  "icons": [
+    "magicbees:magic_frame"
+  ],
+  "stages": [
+    {
+      "text": "research.magicbees.frame_magic.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.magicbees.frame_magic.stage_1",
+      "recipes": [
+        "magicbees:thaumaturge/arcane/magic_frame",
+        "magicbees:magic_frame"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 3
+    }
+  ],
+  "complexity": 1
+}

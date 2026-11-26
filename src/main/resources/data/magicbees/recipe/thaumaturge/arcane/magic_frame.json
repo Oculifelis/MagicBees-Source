@@ -1,0 +1,41 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 1
+    }
+  ],
+  "research": {
+    "entry": "magicbees:frame_magic",
+    "stage": 0
+  },
+  "result": {
+    "id": "magicbees:magic_frame",
+    "count": 1
+  },
+  "vis": 10,
+  "pattern": [
+    "sss",
+    "sCs",
+    "sss"
+  ],
+  "key": {
+    "s": "minecraft:stick",
+    "C": "thaumaturge:fabric"
+  }
+}

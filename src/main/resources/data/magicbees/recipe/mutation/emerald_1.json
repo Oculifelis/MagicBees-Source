@@ -1,0 +1,12 @@
+{
+  "type": "complicated_bees:mutation",
+  "chance": 0.06,
+  "first": "complicated_bees:xeric",
+  "result": "magicbees:emerald",
+  "second": "magicbees:silver",
+  "conditions": {
+    "complicated_bees:block_tag_under": {
+      "tag": "c:storage_blocks/emerald"
+    }
+  }
+}

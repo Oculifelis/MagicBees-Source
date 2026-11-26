@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "magicbees:essence_lost_time",
+    "magicbees:magic_frame"
+  ],
+  "result": {
+    "id": "magicbees:temporal_frame",
+    "count": 1
+  }
+}

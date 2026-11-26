@@ -1,0 +1,61 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "category": "magicbees:apimancy",
+  "name": "research.magicbees.apimancers_drainer.title",
+  "parents": [
+    "magicbees:essence_unstable",
+    "thaumaturge:essentia_reservoir",
+    "thaumaturge:base_eldritch"
+  ],
+  "column": -3,
+  "row": 5,
+  "icons": [
+    "magicbees:apimancers_drainer"
+  ],
+  "stages": [
+    {
+      "text": "research.magicbees.apimancers_drainer.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.magicbees.apimancers_drainer.stage_1",
+      "recipes": [
+        "magicbees:thaumaturge/infusion/apimancers_drainer"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 4
+    }
+  ],
+  "complexity": 3,
+  "meta": [
+    "hidden"
+  ]
+}

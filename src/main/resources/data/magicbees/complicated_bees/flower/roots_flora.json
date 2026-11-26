@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rootsclassic"
+    }
+  ],
+  "blocks": [
+    "rootsclassic:midnight_bloom",
+    "rootsclassic:flare_orchid",
+    "rootsclassic:radiant_daisy"
+  ]
+}

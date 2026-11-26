@@ -1,0 +1,64 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "category": "magicbees:apimancy",
+  "name": "research.magicbees.dimensional_singularity.title",
+  "parents": [
+    "magicbees:frame_magic",
+    "magicbees:essence_time",
+    "magicbees:essence_death",
+    "thaumaturge:infusion"
+  ],
+  "column": -1,
+  "row": 4,
+  "icons": [
+    "magicbees:dimensional_singularity"
+  ],
+  "stages": [
+    {
+      "text": "research.magicbees.dimensional_singularity.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.magicbees.dimensional_singularity.stage_1",
+      "recipes": [
+        "magicbees:thaumaturge/infusion/dimensional_singularity",
+        "magicbees:thaumaturge/infusion/dimensional_singularity_propolis"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 6
+    }
+  ],
+  "complexity": 3,
+  "meta": [
+    "hidden",
+    "spiky"
+  ]
+}

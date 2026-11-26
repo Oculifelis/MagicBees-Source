@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "automagia"
+    }
+  ],
+  "type": "complicated_bees:centrifuge",
+  "input": {
+    "components": {
+      "complicated_bees:comb_type": "magicbees:avaricious"
+    },
+    "items": "complicated_bees:comb",
+    "neoforge:ingredient_type": "neoforge:components"
+  },
+  "outputs": [
+    {
+      "chance": 0.8,
+      "item": "magicbees:magic_wax"
+    },
+    {
+      "chance": 0.3,
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "chance": 0.04,
+      "item": "automagia:shattered_avarice_pearl"
+    }
+  ]
+}

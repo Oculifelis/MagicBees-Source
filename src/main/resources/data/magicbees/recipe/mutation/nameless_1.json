@@ -1,0 +1,7 @@
+{
+  "type": "complicated_bees:mutation",
+  "chance": 0.1,
+  "first": "magicbees:ethereal",
+  "result": "magicbees:nameless",
+  "second": "magicbees:oblivion"
+}

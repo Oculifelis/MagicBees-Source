@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " d ",
+    "mSm",
+    " B "
+  ],
+  "key": {
+    "d": "minecraft:diamond",
+    "S": "magicbees:dimensional_singularity",
+    "B": "minecraft:redstone_block",
+    "m": {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "magicbees:mysterious_magnet",
+      "components": {
+        "magicbees:magnet_level": 2
+      }
+    }
+  },
+  "result": {
+    "id": "magicbees:mysterious_magnet",
+    "count": 1,
+    "components": {
+      "magicbees:magnet_level": 3
+    }
+  }
+}

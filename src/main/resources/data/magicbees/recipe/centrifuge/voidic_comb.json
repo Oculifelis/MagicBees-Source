@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "voidscape"
+    }
+  ],
+  "type": "complicated_bees:centrifuge",
+  "input": {
+    "components": {
+      "complicated_bees:comb_type": "magicbees:voidic"
+    },
+    "items": "complicated_bees:comb",
+    "neoforge:ingredient_type": "neoforge:components"
+  },
+  "outputs": [
+    {
+      "chance": 0.9,
+      "item": "magicbees:magic_wax"
+    },
+    {
+      "chance": 0.15,
+      "item": "voidscape:tendril"
+    },
+    {
+      "chance": 0.02,
+      "item": "voidscape:voidic_crystal"
+    }
+  ]
+}

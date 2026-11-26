@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GSG",
+    "QPQ",
+    "GGG"
+  ],
+  "key": {
+    "G": "#c:glass_blocks",
+    "S": "#minecraft:wooden_slabs",
+    "P": "magicbees:unusual_pollen",
+    "Q": "minecraft:quartz"
+  },
+  "result": {
+    "id": "magicbees:effect_jar",
+    "count": 1
+  }
+}

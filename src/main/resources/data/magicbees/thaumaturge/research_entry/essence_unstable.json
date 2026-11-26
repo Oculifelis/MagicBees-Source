@@ -1,0 +1,57 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "category": "magicbees:apimancy",
+  "name": "research.magicbees.essence_unstable.title",
+  "parents": [
+    "magicbees:essence_life"
+  ],
+  "column": 3,
+  "row": 1,
+  "icons": [
+    "magicbees:essence_fickle_permanence"
+  ],
+  "stages": [
+    {
+      "text": "research.magicbees.essence_unstable.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.magicbees.essence_unstable.stage_1",
+      "recipes": [
+        "magicbees:thaumaturge/crucible/essence_fickle_permanence",
+        "magicbees:thaumaturge/crucible/essence_fickle_permanence_netherrack",
+        "magicbees:metabolic_frame"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 4
+    }
+  ],
+  "complexity": 2,
+  "meta": [
+    "hidden"
+  ]
+}

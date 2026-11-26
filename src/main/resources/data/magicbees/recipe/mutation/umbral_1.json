@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "evilcraft"
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.06,
+  "first": "magicbees:sanguine",
+  "result": "magicbees:umbral",
+  "second": "magicbees:skulking",
+  "conditions": {
+    "complicated_bees:block_under": {
+      "block": "evilcraft:dark_block"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "complicated_bees:mutation",
+  "chance": 0.14,
+  "first": "magicbees:supernatural",
+  "result": "magicbees:earthen",
+  "second": "magicbees:ethereal",
+  "conditions": {
+    "complicated_bees:block_under": {
+      "block": "minecraft:bricks"
+    }
+  }
+}

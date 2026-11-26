@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "magicbees:essence_false_life",
+    "magicbees:magic_frame"
+  ],
+  "result": {
+    "id": "magicbees:gentle_frame",
+    "count": 1
+  }
+}

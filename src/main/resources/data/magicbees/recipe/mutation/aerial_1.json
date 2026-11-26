@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aether_ii"
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.12,
+  "first": "magicbees:windy",
+  "result": "magicbees:aerial",
+  "second": "complicated_bees:plains",
+  "conditions": {
+    "complicated_bees:dimension": {
+      "dimension": "aether_ii:aether_holy_isles"
+    }
+  }
+}

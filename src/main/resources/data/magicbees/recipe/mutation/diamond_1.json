@@ -1,0 +1,12 @@
+{
+  "type": "complicated_bees:mutation",
+  "chance": 0.07,
+  "first": "complicated_bees:xeric",
+  "result": "magicbees:diamond",
+  "second": "magicbees:gold",
+  "conditions": {
+    "complicated_bees:block_tag_under": {
+      "tag": "c:storage_blocks/diamond"
+    }
+  }
+}

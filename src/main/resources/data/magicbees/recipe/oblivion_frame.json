@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "magicbees:essence_scornful_oblivion",
+    "complicated_bees:waxed_frame"
+  ],
+  "result": {
+    "id": "magicbees:oblivion_frame",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rootsclassic"
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.08,
+  "first": "magicbees:druidic",
+  "result": "magicbees:midnight",
+  "second": "magicbees:skulking",
+  "conditions": {
+    "complicated_bees:nighttime": {}
+  }
+}

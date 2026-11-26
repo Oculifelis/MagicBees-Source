@@ -1,0 +1,10 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "voidscape"
+    }
+  ],
+  "inner_color": "7a4fd9",
+  "outer_color": "1b1426"
+}

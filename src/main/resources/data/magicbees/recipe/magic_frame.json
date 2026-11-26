@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "www",
+    "wfw",
+    "www"
+  ],
+  "key": {
+    "w": "magicbees:magic_wax",
+    "f": "complicated_bees:frame"
+  },
+  "result": {
+    "id": "magicbees:magic_frame",
+    "count": 1
+  }
+}

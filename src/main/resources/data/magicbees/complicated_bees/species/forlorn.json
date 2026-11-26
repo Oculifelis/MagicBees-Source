@@ -1,0 +1,71 @@
+{
+  "color": "cba88c",
+  "default_chromosome": {
+    "complicated_bees:active_time": {
+      "data": "cathemeral",
+      "dominant": 1
+    },
+    "complicated_bees:cave_dwelling": {
+      "data": 1,
+      "dominant": 1
+    },
+    "complicated_bees:effect": {
+      "data": "magicbees:repulsion",
+      "dominant": 0
+    },
+    "complicated_bees:fertility": {
+      "data": 1,
+      "dominant": 1
+    },
+    "complicated_bees:flower": {
+      "data": "complicated_bees:chorus",
+      "dominant": 1
+    },
+    "complicated_bees:humidity": {
+      "data": "normal",
+      "dominant": 0,
+      "tolerance": "BOTH_1"
+    },
+    "complicated_bees:lifespan": {
+      "data": "longest",
+      "dominant": 0
+    },
+    "complicated_bees:productivity": {
+      "data": "slow",
+      "dominant": 1
+    },
+    "complicated_bees:species": {
+      "data": "magicbees:forlorn",
+      "dominant": 0
+    },
+    "complicated_bees:temperature": {
+      "data": "cold",
+      "dominant": 0,
+      "tolerance": "UP_2"
+    },
+    "complicated_bees:territory": {
+      "data": [
+        4,
+        2
+      ],
+      "dominant": 1
+    },
+    "complicated_bees:weatherproof": {
+      "data": 0,
+      "dominant": 1
+    }
+  },
+  "dominant": false,
+  "foil": true,
+  "nest_color": "f696ff",
+  "products": [
+    {
+      "chance": 0.3,
+      "item": "complicated_bees:comb",
+      "components": {
+        "complicated_bees:comb_type": "magicbees:forgotten"
+      }
+    }
+  ],
+  "specialty_products": []
+}

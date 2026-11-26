@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "blocks": [
+    "thaumaturge:shimmerleaf",
+    "thaumaturge:cinderpearl",
+    "thaumaturge:vishroom",
+    "thaumaturge:ethereal_bloom"
+  ]
+}

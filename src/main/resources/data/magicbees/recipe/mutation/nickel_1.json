@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:nuggets/nickel"
+      }
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.14,
+  "first": "magicbees:iron",
+  "result": "magicbees:nickel",
+  "second": "magicbees:esoteric",
+  "conditions": {
+    "complicated_bees:block_tag_under": {
+      "tag": "c:storage_blocks/nickel"
+    }
+  }
+}

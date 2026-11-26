@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_forest",
+  "features": "magicbees:curious_nest",
+  "step": "vegetal_decoration"
+}

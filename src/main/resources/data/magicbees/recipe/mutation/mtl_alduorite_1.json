@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "metallurgy"
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.05,
+  "first": "magicbees:mtl_ceruclase",
+  "result": "magicbees:mtl_alduorite",
+  "second": "magicbees:mtl_midasium",
+  "conditions": {
+    "complicated_bees:dimension": {
+      "dimension": "minecraft:the_nether"
+    }
+  }
+}

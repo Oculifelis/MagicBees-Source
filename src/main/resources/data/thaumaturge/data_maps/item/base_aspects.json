@@ -1,0 +1,404 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "values": {
+    "magicbees:magic_wax": [
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:fabrico",
+        "amount": 1
+      }
+    ],
+    "magicbees:soul_wax": [
+      {
+        "aspect": "thaumaturge:spiritus",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:fabrico",
+        "amount": 1
+      }
+    ],
+    "magicbees:amnesic_wax": [
+      {
+        "aspect": "thaumaturge:cognitio",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 1
+      }
+    ],
+    "magicbees:enchanting_drop": [
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 1
+      }
+    ],
+    "magicbees:intellect_drop": [
+      {
+        "aspect": "thaumaturge:cognitio",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 1
+      }
+    ],
+    "magicbees:unusual_pollen": [
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 2
+      }
+    ],
+    "magicbees:phased_pollen": [
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 2
+      }
+    ],
+    "magicbees:unstable_propolis": [
+      {
+        "aspect": "thaumaturge:permutatio",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:perditio",
+        "amount": 2
+      }
+    ],
+    "magicbees:skull_chip": [
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 2
+      }
+    ],
+    "magicbees:skull_fragment": [
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 8
+      },
+      {
+        "aspect": "thaumaturge:tenebrae",
+        "amount": 2
+      }
+    ],
+    "magicbees:dragon_dust": [
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 1
+      }
+    ],
+    "magicbees:dragon_chunk": [
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 8
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 4
+      }
+    ],
+    "magicbees:aromatic_lump": [
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:sensus",
+        "amount": 2
+      }
+    ],
+    "magicbees:extended_fertilizer": [
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 2
+      }
+    ],
+    "magicbees:lore_fragment": [
+      {
+        "aspect": "thaumaturge:cognitio",
+        "amount": 2
+      }
+    ],
+    "magicbees:jelly_babies": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 1
+      }
+    ],
+    "magicbees:essence_false_life": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 8
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 4
+      }
+    ],
+    "magicbees:essence_shallow_grave": [
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 8
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 4
+      }
+    ],
+    "magicbees:essence_lost_time": [
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 6
+      },
+      {
+        "aspect": "thaumaturge:ordo",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 4
+      }
+    ],
+    "magicbees:essence_everlasting_durability": [
+      {
+        "aspect": "thaumaturge:praemunio",
+        "amount": 8
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 4
+      }
+    ],
+    "magicbees:essence_scornful_oblivion": [
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 12
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 8
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 6
+      }
+    ],
+    "magicbees:essence_fickle_permanence": [
+      {
+        "aspect": "thaumaturge:permutatio",
+        "amount": 8
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 4
+      }
+    ],
+    "magicbees:dimensional_singularity": [
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 16
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 8
+      },
+      {
+        "aspect": "thaumaturge:permutatio",
+        "amount": 8
+      }
+    ],
+    "magicbees:air_propolis": [
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:alkimia",
+        "amount": 1
+      }
+    ],
+    "magicbees:fire_propolis": [
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:alkimia",
+        "amount": 1
+      }
+    ],
+    "magicbees:water_propolis": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:alkimia",
+        "amount": 1
+      }
+    ],
+    "magicbees:earth_propolis": [
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:alkimia",
+        "amount": 1
+      }
+    ],
+    "magicbees:order_propolis": [
+      {
+        "aspect": "thaumaturge:ordo",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:alkimia",
+        "amount": 1
+      }
+    ],
+    "magicbees:chaos_propolis": [
+      {
+        "aspect": "thaumaturge:perditio",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:alkimia",
+        "amount": 1
+      }
+    ],
+    "magicbees:air_dust": [
+      {
+        "aspect": "thaumaturge:aer",
+        "amount": 3
+      }
+    ],
+    "magicbees:fire_dust": [
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 3
+      }
+    ],
+    "magicbees:water_dust": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 3
+      }
+    ],
+    "magicbees:earth_dust": [
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 3
+      }
+    ],
+    "magicbees:order_dust": [
+      {
+        "aspect": "thaumaturge:ordo",
+        "amount": 3
+      }
+    ],
+    "magicbees:chaos_dust": [
+      {
+        "aspect": "thaumaturge:perditio",
+        "amount": 3
+      }
+    ],
+    "magicbees:thaumium_scoop": [
+      {
+        "aspect": "thaumaturge:instrumentum",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 1
+      }
+    ],
+    "magicbees:void_scoop": [
+      {
+        "aspect": "thaumaturge:instrumentum",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 1
+      }
+    ],
+    "magicbees:vis_aura_provider": [
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 6
+      },
+      {
+        "aspect": "thaumaturge:auram",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 2
+      }
+    ],
+    "magicbees:apimancers_drainer": [
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 8
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 6
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 4
+      }
+    ]
+  }
+}

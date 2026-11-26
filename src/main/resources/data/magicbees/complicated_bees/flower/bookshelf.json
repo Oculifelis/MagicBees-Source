@@ -1,0 +1,9 @@
+{
+  "blocks": [
+    "minecraft:bookshelf",
+    "minecraft:chiseled_bookshelf"
+  ],
+  "tags": [
+    "c:bookshelves"
+  ]
+}

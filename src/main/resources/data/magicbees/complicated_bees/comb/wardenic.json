@@ -1,0 +1,10 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumrev"
+    }
+  ],
+  "inner_color": "8fe3d2",
+  "outer_color": "27464a"
+}

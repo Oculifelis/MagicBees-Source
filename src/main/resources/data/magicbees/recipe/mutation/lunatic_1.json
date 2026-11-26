@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aerialhell"
+    }
+  ],
+  "type": "complicated_bees:mutation",
+  "chance": 0.04,
+  "first": "magicbees:stellar",
+  "result": "magicbees:lunatic",
+  "second": "magicbees:supernatural",
+  "conditions": {
+    "complicated_bees:dimension": {
+      "dimension": "aerialhell:aerial_hell"
+    },
+    "complicated_bees:nighttime": {}
+  }
+}

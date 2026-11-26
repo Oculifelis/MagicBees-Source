@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "type": "complicated_bees:centrifuge",
+  "input": "magicbees:chaos_propolis",
+  "outputs": [
+    {
+      "chance": 0.9,
+      "item": "magicbees:chaos_dust"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "color": "ffa042",
+  "default_chromosome": {
+    "complicated_bees:active_time": {
+      "data": "cathemeral",
+      "dominant": 1
+    },
+    "complicated_bees:cave_dwelling": {
+      "data": 1,
+      "dominant": 1
+    },
+    "complicated_bees:effect": {
+      "data": "INVALID",
+      "dominant": 0
+    },
+    "complicated_bees:fertility": {
+      "data": 1,
+      "dominant": 1
+    },
+    "complicated_bees:flower": {
+      "data": "magicbees:bookshelf",
+      "dominant": 1
+    },
+    "complicated_bees:humidity": {
+      "data": "dry",
+      "dominant": 0,
+      "tolerance": "NONE"
+    },
+    "complicated_bees:lifespan": {
+      "data": "long",
+      "dominant": 0
+    },
+    "complicated_bees:productivity": {
+      "data": "average",
+      "dominant": 1
+    },
+    "complicated_bees:species": {
+      "data": "magicbees:savant",
+      "dominant": 0
+    },
+    "complicated_bees:temperature": {
+      "data": "normal",
+      "dominant": 0,
+      "tolerance": "UP_2"
+    },
+    "complicated_bees:territory": {
+      "data": [
+        4,
+        2
+      ],
+      "dominant": 1
+    },
+    "complicated_bees:weatherproof": {
+      "data": 0,
+      "dominant": 1
+    }
+  },
+  "dominant": false,
+  "foil": true,
+  "nest_color": "ff7c26",
+  "products": [
+    {
+      "chance": 0.4,
+      "item": "complicated_bees:comb",
+      "components": {
+        "complicated_bees:comb_type": "magicbees:papery"
+      }
+    }
+  ],
+  "specialty_products": [
+    {
+      "chance": 0.05,
+      "item": "magicbees:lore_fragment"
+    }
+  ]
+}

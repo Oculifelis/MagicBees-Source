@@ -1,0 +1,3 @@
+- Fixed four blocks showing as missing items on 1.21.1
+- Fixed the vampiric bee missing on 1.21.1 with Witchery
+- Changed the NeoForge requirement to accept older stable builds

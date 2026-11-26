@@ -1,0 +1,76 @@
+{
+  "color": "ece684",
+  "default_chromosome": {
+    "complicated_bees:active_time": {
+      "data": "cathemeral",
+      "dominant": 1
+    },
+    "complicated_bees:cave_dwelling": {
+      "data": 1,
+      "dominant": 1
+    },
+    "complicated_bees:effect": {
+      "data": "magicbees:spawn_cat",
+      "dominant": 0
+    },
+    "complicated_bees:fertility": {
+      "data": 2,
+      "dominant": 1
+    },
+    "complicated_bees:flower": {
+      "data": "complicated_bees:flower",
+      "dominant": 1
+    },
+    "complicated_bees:humidity": {
+      "data": "normal",
+      "dominant": 0,
+      "tolerance": "NONE"
+    },
+    "complicated_bees:lifespan": {
+      "data": "shorter",
+      "dominant": 0
+    },
+    "complicated_bees:productivity": {
+      "data": "fast",
+      "dominant": 1
+    },
+    "complicated_bees:species": {
+      "data": "magicbees:catty",
+      "dominant": 1
+    },
+    "complicated_bees:temperature": {
+      "data": "hot",
+      "dominant": 0,
+      "tolerance": "BOTH_3"
+    },
+    "complicated_bees:territory": {
+      "data": [
+        4,
+        2
+      ],
+      "dominant": 1
+    },
+    "complicated_bees:weatherproof": {
+      "data": 0,
+      "dominant": 1
+    }
+  },
+  "dominant": true,
+  "foil": false,
+  "nest_color": "563c24",
+  "products": [
+    {
+      "chance": 0.25,
+      "item": "complicated_bees:comb",
+      "components": {
+        "complicated_bees:comb_type": "magicbees:furtive"
+      }
+    }
+  ],
+  "specialty_products": [
+    {
+      "chance": 0.24,
+      "item": "minecraft:cod"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "iceandfire"
+    }
+  ],
+  "blocks": [
+    "iceandfire:fire_lily",
+    "iceandfire:frost_lily",
+    "iceandfire:lightning_lily"
+  ]
+}

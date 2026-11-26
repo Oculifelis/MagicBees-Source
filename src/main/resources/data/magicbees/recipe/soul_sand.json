@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SwS",
+    "wDw",
+    "SwS"
+  ],
+  "key": {
+    "S": "#c:sands",
+    "D": "#minecraft:dirt",
+    "w": "magicbees:soul_wax"
+  },
+  "result": {
+    "id": "minecraft:soul_sand",
+    "count": 4
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "gst",
+    "sEs",
+    "tsg"
+  ],
+  "key": {
+    "g": "magicbees:essence_shallow_grave",
+    "t": "magicbees:essence_lost_time",
+    "s": "minecraft:wither_skeleton_skull",
+    "E": "minecraft:dragon_egg"
+  },
+  "result": {
+    "id": "magicbees:essence_scornful_oblivion",
+    "count": 1
+  }
+}

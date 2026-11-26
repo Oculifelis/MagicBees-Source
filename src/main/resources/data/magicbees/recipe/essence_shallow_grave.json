@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "gwg",
+    "wcw",
+    "gwg"
+  ],
+  "key": {
+    "g": "#c:glass_blocks",
+    "w": "magicbees:soul_wax",
+    "c": "minecraft:rotten_flesh"
+  },
+  "result": {
+    "id": "magicbees:essence_shallow_grave",
+    "count": 1
+  }
+}

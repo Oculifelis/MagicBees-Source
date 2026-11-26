@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "voidscape"
+    }
+  ],
+  "blocks": [
+    "voidscape:thunder_fungus",
+    "voidscape:thunder_roots",
+    "voidscape:thunder_wart",
+    "voidscape:thunder_vines"
+  ]
+}

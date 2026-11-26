@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "magicbees:air_dust",
+    "magicbees:air_dust",
+    "magicbees:air_dust",
+    "magicbees:air_dust"
+  ],
+  "result": {
+    "id": "thaumaturge:essentia_crystal",
+    "count": 1,
+    "components": {
+      "thaumaturge:crystal_aspect": {
+        "aspect": "thaumaturge:aer"
+      }
+    }
+  }
+}

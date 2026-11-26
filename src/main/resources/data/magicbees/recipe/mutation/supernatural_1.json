@@ -1,0 +1,7 @@
+{
+  "type": "complicated_bees:mutation",
+  "chance": 0.08,
+  "first": "magicbees:charmed",
+  "result": "magicbees:supernatural",
+  "second": "magicbees:enchanted"
+}

@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "type": "complicated_bees:centrifuge",
+  "input": {
+    "components": {
+      "complicated_bees:comb_type": "magicbees:glittering_chaos"
+    },
+    "items": "complicated_bees:comb",
+    "neoforge:ingredient_type": "neoforge:components"
+  },
+  "outputs": [
+    {
+      "chance": 1,
+      "item": "magicbees:magic_wax"
+    },
+    {
+      "chance": 0.6,
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "chance": 0.8,
+      "item": "magicbees:chaos_propolis"
+    }
+  ]
+}

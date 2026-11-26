@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "metallurgy"
+    }
+  ],
+  "type": "complicated_bees:centrifuge",
+  "input": {
+    "components": {
+      "complicated_bees:comb_type": "magicbees:mtl_ceruclase"
+    },
+    "items": "complicated_bees:comb",
+    "neoforge:ingredient_type": "neoforge:components"
+  },
+  "outputs": [
+    {
+      "chance": 0.6,
+      "item": "complicated_bees:beeswax"
+    },
+    {
+      "chance": 0.45,
+      "item": "metallurgy:ceruclase_nugget"
+    },
+    {
+      "chance": 0.1,
+      "item": "metallurgy:ceruclase_dust"
+    }
+  ]
+}

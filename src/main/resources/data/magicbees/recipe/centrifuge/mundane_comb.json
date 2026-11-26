@@ -1,0 +1,24 @@
+{
+  "type": "complicated_bees:centrifuge",
+  "input": {
+    "components": {
+      "complicated_bees:comb_type": "magicbees:mundane"
+    },
+    "items": "complicated_bees:comb",
+    "neoforge:ingredient_type": "neoforge:components"
+  },
+  "outputs": [
+    {
+      "chance": 0.9,
+      "item": "complicated_bees:beeswax"
+    },
+    {
+      "chance": 0.6,
+      "item": "complicated_bees:honey_droplet"
+    },
+    {
+      "chance": 0.1,
+      "item": "magicbees:magic_wax"
+    }
+  ]
+}

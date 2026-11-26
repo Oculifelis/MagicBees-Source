@@ -1,0 +1,61 @@
+{
+  "values": {
+    "minecraft:sand": [
+      {
+        "into": "minecraft:sandstone",
+        "any_biome": [
+          "minecraft:is_beach",
+          "c:is_desert"
+        ],
+        "where": "sandy"
+      }
+    ],
+    "minecraft:red_sand": [
+      {
+        "into": "minecraft:red_sandstone",
+        "any_biome": [
+          "minecraft:is_badlands"
+        ],
+        "where": "badlands"
+      }
+    ],
+    "minecraft:stone": [
+      {
+        "into": "railcraft:quarried_stone",
+        "any_biome": [
+          "minecraft:is_forest"
+        ],
+        "not_biome": [
+          "c:is_snowy"
+        ],
+        "where": "forest"
+      },
+      {
+        "into": "railcraft:abyssal_stone",
+        "any_biome": [
+          "minecraft:is_ocean"
+        ],
+        "where": "ocean"
+      }
+    ],
+    "minecraft:cobblestone": [
+      {
+        "into": "railcraft:quarried_stone",
+        "any_biome": [
+          "minecraft:is_forest"
+        ],
+        "not_biome": [
+          "c:is_snowy"
+        ],
+        "where": "forest"
+      },
+      {
+        "into": "railcraft:abyssal_stone",
+        "any_biome": [
+          "minecraft:is_ocean"
+        ],
+        "where": "ocean"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "magicbees:essence_shallow_grave",
+    "magicbees:magic_frame"
+  ],
+  "result": {
+    "id": "magicbees:necrotic_frame",
+    "count": 1
+  }
+}
